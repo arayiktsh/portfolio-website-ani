@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "localhost:3000/PersonalWebsite/"
+    "url": "https://github.com/AniPetrosyan/PersonalWebsite.git"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
