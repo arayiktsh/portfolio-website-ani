@@ -8,15 +8,24 @@ import Experience from '../components/Resume/Experience';
 import Skills from '../components/Resume/Skills';
 import Courses from '../components/Resume/Courses';
 import References from '../components/Resume/References';
+import Volunteering from '../components/Resume/Volunteering';
+import Nonformaleducation from '../components/Resume/Nonformaleducation';
+import Internships from '../components/Resume/Internships';
 
 import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
+import nonformal from '../data/resume/nonformal';
+import volunteering from '../data/resume/volunteering';
+import internship from '../data/resume/internships';
+
 import { skills, categories } from '../data/resume/skills';
 
 const sections = [
   'Education',
   'Experience',
+  'Non-Formal Education',
+  'Volunteering',
   'Skills',
   'Courses',
   'References',
@@ -25,7 +34,7 @@ const sections = [
 const Resume = () => (
   <Main
     title="Resume"
-    description="Michael D'Angelo's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet Labs, and Facebook."
+    description="Ani Petrosyan's Resume."
   >
     <article className="post" id="resume">
       <header>
@@ -42,6 +51,9 @@ const Resume = () => (
       </header>
       <Education data={degrees} />
       <Experience data={positions} />
+      <Nonformaleducation data={nonformal} />
+      <Internships data={internship} />
+      <Volunteering data={volunteering} />
       <Skills skills={skills} categories={categories} />
       <Courses data={courses} />
       <References />

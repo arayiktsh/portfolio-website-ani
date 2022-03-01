@@ -1,47 +1,47 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    title: ' The Armenian Mirror-Spectator',
+    subtitle: 'February 2022',
+    link: 'https://mirrorspectator.com/2022/02/03/ani-petrosyan-hackathon-founder-and-it-extraordinaire/?fbclid=IwAR1S1tnDrQFJLWlC689hs_MQ7FWqL8xWql_uvtr_UCMB7RCZC849ZUtjMFU',
+    image: '/images/projects/mirrorspectator.PNG',
+    date: '2022-02-04',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+    title: 'Girls In Tech Armenia ',
+    desc: "Was selected as one of 15 interviewers in Girls In Tech Armenia's project called ''Her STEM story'' to inspire other girls to pursue their dreams",
+    link: 'https://bit.ly/3DJXR28',
+    image: '/images/projects/girlsintech.PNG',
+    date: '2021-12-10',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Armenian Public TV',
+    link: 'https://www.youtube.com/watch?v=t8xN-pjCdRs',
+    image: '/images/projects/armenianpublictv2.jpg',
+    date: '2021-11-19',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'My startup Girlopolis won the Social Impact Award Armenia '
+      + 'and as the founder of Girlopolis, I was invited to speak about our victory',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+    title: 'UNICEF Armenia',
+    link: 'https://www.unicef.org/armenia/en/stories/failures-only-give-you-chance-take-bigger-steps-fly-higher',
+    image: '/images/projects/unicef.jpg',
+    date: '2021-04-21',
+  },
+
+  {
+    title: "Women's Fund Armenia",
+    link: 'https://womenfundarmenia.wpcomstaging.com/%d5%a1%d5%b4%d5%a5%d5%b6-%d5%ab%d5%b6%d5%b9-%d5%a4%d6%80%d5%a1%d5%b6%d5%ab%d6%81-%d5%bd%d5%af%d5%bd%d5%be%d5%a5%d6%81-%d5%a5%d5%bd-%d5%b8%d6%80%d5%b8%d5%b7%d5%a5%d6%81%d5%ab%d5%9d-%d5%a3%d5%b6/?lang=hy&fbclid=IwAR1urMNX5R1XNjREocvmWloXi7p99jHuTIFRZmAcA_-1ZuDJpwcODZoGPgg',
+    image: '/images/projects/girlopolis.jpg',
+    date: '2021-09-01',
+  },
+
+  {
+    title: 'Armenian Public TV',
+    link: 'https://www.youtube.com/watch?v=Jc11xRHZCZo',
+    image: '/images/projects/publictv.PNG',
+    date: '2021-03-01',
   },
 ];
 

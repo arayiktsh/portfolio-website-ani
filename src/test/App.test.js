@@ -15,6 +15,7 @@ import NotFound from '../pages/NotFound';
 import Projects from '../pages/Projects';
 import Resume from '../pages/Resume';
 import Stats from '../pages/Stats';
+import IntPrograms from '../pages/IntPrograms';
 
 const pages = [
   {
@@ -33,8 +34,8 @@ const pages = [
     component: Projects,
   },
   {
-    route: '/stats',
-    heading: 'Stats',
+    route: '/articles',
+    heading: 'Articles',
     component: Stats,
   },
   {
@@ -47,6 +48,13 @@ const pages = [
     heading: 'Resume',
     component: Resume,
   },
+
+  {
+    route: '/international-programs',
+    heading: 'Int. Programs',
+    component: IntPrograms,
+  },
+
 ];
 
 // Adds router to Page context and allows us to navigate to the

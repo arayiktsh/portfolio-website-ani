@@ -1,10 +1,14 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
-import { faAngellist } from '@fortawesome/free-brands-svg-icons/faAngellist';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
+
 // See https://fontawesome.com/icons?d=gallery&s=brands,regular&m=free
 // to add other icons.
 
@@ -17,7 +21,7 @@ const data = [
   {
     link: 'https://www.facebook.com/ani.petrosyan.104418',
     label: 'Facebook',
-    icon: faFacebookF,
+    icon: faFacebook,
   },
   {
     link: 'https://www.instagram.com/ani_petrosiann/',
@@ -28,17 +32,6 @@ const data = [
     link: 'https://www.linkedin.com/in/ani-petrosyan-6403aa1a0/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
-  },
-
-  {
-    link: 'https://twitter.com/dangelosaurus',
-    label: 'Twitter',
-    icon: faTwitter,
-  },
-  {
-    link: 'apetrosyan071@gmail.com',
-    label: 'Email',
-    icon: faEnvelope,
   },
 ];
 

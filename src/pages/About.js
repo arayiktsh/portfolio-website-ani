@@ -38,12 +38,11 @@ const About = () => (
       />
     </article>
 
-
     <article className="post" id="interviews">
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/interviews">Interviews</Link></h2>
-          <p>A selection of projects that I&apos;m not too ashamed of</p>
+          <p>Here you can find my interviews. Feel free to click and read them!</p>
         </div>
       </header>
       {data.map((project) => (

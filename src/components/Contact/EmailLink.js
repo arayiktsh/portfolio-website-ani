@@ -9,21 +9,21 @@ const validateText = (text) => {
 };
 
 const messages = [
-  'hi',
-  'hello',
-  'hola',
-  'you-can-email-me-at-literally-anything! Really',
-  'well, not anything. But most things',
-  'like-this',
-  'or-this',
-  'but not this :(  ',
-  'you.can.also.email.me.with.specific.topics.like',
-  'just-saying-hi',
-  'please-work-for-us',
-  'help',
-  'admin',
-  'or-I-really-like-your-website',
-  'thanks',
+  'hi  ',
+  'hello  ',
+  'hola  ',
+  'you-can-email-me-at-literally-anything! Really  ',
+  'well, not anything. But most things  ',
+  'like-this  ',
+  'or-this  ',
+  'but not this :(   ',
+  'you.can.also.email.me.with.specific.topics.like  ',
+  'just-saying-hi  ',
+  'please-work-for-us  ',
+  'help  ',
+  'admin  ',
+  'or-I-really-like-your-website  ',
+  'thanks  ',
 ];
 
 const useInterval = (callback, delay) => {
@@ -76,7 +76,7 @@ const EmailLink = () => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `email:${message}@apetrosyan071@gmail.com` : ''}>
+      <a href={validateText(message) ? `email:${message} @apetrosyan071@gmail.com` : ''}>
         <span>{message}</span>
         <span>apetrosyan071@gmail.com</span>
       </a>
